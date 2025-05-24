@@ -97,7 +97,7 @@ pre {
   letter-spacing: 0.2px;
 }
 
-span.strike-through {
+.strike-through {
   text-decoration: line-through;
 }
 
@@ -112,11 +112,11 @@ div.organization .operation-sector {
 }
 
 div.organization h4 {
-  margin-bottom: 8px;
+  margin-top: 24px;
   font-weight: bold;
   font-size: max(13px, 0.8rem);
-  color: rgb(71, 71, 71);
-  letter-spacing: 0.4px;
+  color: rgb(66, 66, 66);
+  letter-spacing: .8px;
   margin-bottom: 4px;
 }
 
@@ -161,8 +161,6 @@ section.warning > * {
   margin: 12px 0;
 }
 
-section.warning > ul {
-}
 
 section.warning li {
   margin: 12px 0;
@@ -174,7 +172,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #5c5c5c;
+  background-color: #5c5c5c ;
   color: white;
   font-size: max(13px, 0.8rem);
   padding: 24px 0;
@@ -229,4 +227,8 @@ footer p {
   .body {
     padding: 24px 24px 0 24px;
   }
+}
+
+.red {
+  color: red;
 }
