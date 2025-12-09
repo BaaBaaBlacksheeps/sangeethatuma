@@ -133,7 +133,7 @@ div.organization h4 {
 
 .about-container img {
   width: 196px;
-  aspect-ratio: 1 / 1.25;
+  aspect-ratio: 1 / 1.15;
 }
 
 .about-container figcaption {
@@ -236,4 +236,5 @@ footer p {
 .red {
   color: red;
 }
+
 
