@@ -21,12 +21,11 @@
   font-size: 16px;
 }
 
-html {
-}
-
 body {
   max-width: 900px;
   width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
   margin: 32px auto 0 auto;
   padding: 48px 48px 0 48px;
   background-color: rgba(255, 255, 255, 0.918);
@@ -66,6 +65,22 @@ h4 {
   font-size: 0.9rem;
 }
 
+ol {
+  margin-top: 1.5rem;
+  padding-left: 20px;
+}
+
+ol > li {
+  margin-bottom: 1.5rem;
+}
+
+h5.underlined-caps {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0 0 8px 0;
+}
+
 p,
 li,
 a {
@@ -81,6 +96,12 @@ p {
 ul {
   margin: 12px 0;
   padding-inline-start: 16px;
+}
+
+.sub-ul {
+  margin: 0;
+  padding-inline-start: 20px;
+  list-style: disc;
 }
 
 li {
@@ -116,7 +137,7 @@ div.organization h4 {
   font-weight: bold;
   font-size: max(13px, 0.8rem);
   color: rgb(66, 66, 66);
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   margin-bottom: 4px;
 }
 
@@ -161,7 +182,6 @@ section.warning > * {
   margin: 12px 0;
 }
 
-
 section.warning li {
   margin: 12px 0;
   line-height: 130%;
@@ -172,7 +192,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #5c5c5c ;
+  background-color: #5c5c5c;
   color: white;
   font-size: max(13px, 0.8rem);
   padding: 24px 0;
@@ -236,5 +256,3 @@ footer p {
 .red {
   color: red;
 }
-
-
